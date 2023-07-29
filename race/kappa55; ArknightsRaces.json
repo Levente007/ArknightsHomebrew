@@ -1,0 +1,92 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "KappaArknightsHB",
+                "abbreviation": "KAHB",
+                "full": "Kappa Arknights Races",
+                "authors": [
+                    "kappa55"
+                ],
+                "version": "1.0",
+                "url": "https://drive.google.com/drive/folders/1tpg_tBchaKI_msMswEwfEoXP_JfjTazg?usp=sharing",
+                "convertedBy": [
+                    "thecringeone"
+                ]
+            }
+        ],
+        "dateAdded": "0000000000000",
+        "dateLastModified": "0000000000000",
+        "_dateLastModifiedHash": "00000"
+    },
+    "race": [
+        {
+            "name": "Archosauria",
+            "source": "KAHB",
+            "ability": [
+                {
+                    "choose": {
+                        "weighted": {
+                            "from": [
+                                "str",
+                                "dex",
+                                "con",
+                                "int",
+                                "wis",
+                                "cha"
+                            ],
+                            "weights": [
+                                2,
+                                1
+                            ]
+                        }
+                    }
+                }
+            ],
+            "size": [
+                "M"
+            ],
+            "speed": 30,
+            "languageProficiencies": [
+                "Common"
+            ],
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Ability Score Increase",
+                    "entries": [
+                        "Increase one ability score of your choice by 2 and another ability score of your choice by 1."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Size",
+                    "entries": [
+                        "Terran races vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Speed",
+                    "entries": [
+                        "Your base walking speed is 30 feet."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Language Proficiencies",
+                    "entries": [
+                        "You can speak, read, and write Common. You also learn a second language that is depending on the race of your choice. The spreadsheet at the end of the races will show what language your character will learn."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Age",
+                    "entries": [
+                        "Age works strangely in this setting, as all races have the normal human lifespan, but it can be longer than that by quite a lot of means. Someone can be naturally long living, some casters managed to prolong their life and many other unexplained ways, and it is not race dependent, as it is observed in most of the races in Terra. Note that, in this setting the longer a person lives, the more powerful it becomes and the more secrets it holds, so discuss the age of your character with your DM carefully."
+                    ]
+                }
+            ]
+        }
+    ]
+}
