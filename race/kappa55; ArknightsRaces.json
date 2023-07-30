@@ -442,25 +442,11 @@
             "traitTags": [
                 "Language Proficiency"
             ],
-            "armorProficiencies": [
-
-            ],
-            "weaponProficiencies": [
-
-            ],
-            "resist": [
-                
-			],
             "languageProficiencies": [
                 {
                     "Common": true
                 }
             ],
-            "skillProficiencies": [
-				{
-
-				}
-			],
             "entries": [
                 {
                     "type": "section",
@@ -498,6 +484,309 @@
                             "name": "Corporate Born",
                             "entries": [
                                 "You can add your proficiency bonus one additional time to Charisma skill check made for trading, bargaining and bribing."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "hasFluff": true,
+            "hasFluffImages": true,
+            "raceName": "Terra Furry",
+            "raceSource": "KAHB"
+        },
+        {
+            "name": "Caprinae/Elafia",
+            "source": "KAHB",
+            "page": 1,
+            "traitTags": [
+                "Language Proficiency"
+            ],
+            "languageProficiencies": [
+                {
+                    "Common": true
+                }
+            ],
+            "skillProficiencies": [
+				{
+                    "arcana": true
+				}
+			],
+            "entries": [
+                {
+                    "type": "section",
+                    "entries": [
+                        {
+                            "type": "entries",
+                            "name": "Caprinae/Elafia",
+                            "entries":[
+                                "These two are separate races, but since their biology is very similar and they originate from the same country, for the purposes of simplification, they will work mechanically the same.",
+                                "Caprinae have the traits of goats (Capra sp.) and sheep (Ovis sp.), which can be seen from the shape of their horns. Elafians have the traits of deer (Cervidae), which can be seen from the shape of their antlers, though not all Elafias have them, but their ears still can be a defining feature. Most of them are known to be born in Leithanien and thanks to that, they are known to be Terra’s most fearsome casters, not because they wield the most powerful one, but because they have such versatility in arts, that it's hard to find weaknesses or openings against them. Their society is heavily based on using arts, even for the most mundane things. They were the most advanced race in terms of arts, until the defeat of the Witch King by the Twin Empresses who went out of their ways to collect, hunt down and shut in all of the Witch Kings work and forbid any kind of research that is related to him or his work. This race only has humanoid variants."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Eye for Arts",
+                    "entries": [
+                        "You gain expertise in Arcana and you can use your spellcasting ability instead of Intelligence for such skill checks. (In foundry you have to edit this directily in the character sheet)"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Advanched Spellcraft",
+                    "entries": [
+                        "Choose a spellcasting class and treat its spell list as it was part of your class’ spell list. In addition, the maximum number of spells you can learn and the maximum number of spells you can prepare are increased by your proficiency bonus. You learn two additional cantrips from the spell list that is available for you."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Spellcrafter Fighting Style",
+                    "entries": [
+                        "Choose one of the following options:",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Defensive",
+                                    "entries": [
+                                        "While you are concentrating on a spell, you gain +1 to your saving throws."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Elementalist",
+                                    "entries": [
+                                        "When you cast a spell that deals fire, cold, lightning or acid damage, you can switch the damage type to the other listed options. If the target of your spell had weakness to the damage type you inflicted damage with, you can roll an extra die to the damage roll, using the spells highest damage die."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Controller",
+                                    "entries": [
+                                        "Once per short rest you can attempt to concentrate on two spells at the same time. While you are concentrating on two spells, your movement speed is reduced to 0 and you gain a -5 penalty to your Constitution saving throws to keep your concentration. If you move or fail a concentration check, one of these spells ends. If you fail on the concentration check by 5 or more, you lose concentration on both spells."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "hasFluff": true,
+            "hasFluffImages": true,
+            "raceName": "Terra Furry",
+            "raceSource": "KAHB"
+        },
+        {
+            "name": "Draco",
+            "source": "KAHB",
+            "page": 1,
+            "traitTags": [
+                "Language Proficiency"
+            ],
+            "resist": [
+                "fire"
+			],
+            "languageProficiencies": [
+                {
+                    "Common": true
+                }
+            ],
+            "entries": [
+                {
+                    "type": "section",
+                    "entries": [
+                        {
+                            "type": "entries",
+                            "name": "Draco",
+                            "entries":[
+                                "Dracos have the traits of Western dragons, which can be seen from the shape of their horns and tail, and the ability to manipulate fire. They are often given the nickname \"red dragons\" due to their fiery trait. The Dracos were once the sole ruler of Victoria until they were forced to share the throne together with the newly-arrived Aslans after signing a peace treaty to end the civil wars. However, the Dracos suddenly vanished and were believed to be extinct, which caused a huge vacuum on the throne and the nation's instability until present days. But behind the scenes, some of the Dracos remain alive and are plotting to take back their former reign. This race only has humanoid variants."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Draco Resistance",
+                    "entries": [
+                        "You have resistance to fire damage. You can also spend an action to gain immunity to fire damage for 1 minute. If you use your Innate Fire Arts, you can activate this ability at the same time. Once you use this trait, you can't do so again until you finish a long rest."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Innate Fire Arts",
+                    "entries": [
+                        "You have been born with arts that can create and manipulate fire in many ways. You can use these arts for simple tasks. You instantaneously light or snuff out a Candle, a torch, or a small campfire. You can also set objects on fire that are not being carried or worn, but only one a scale that a cantrip would do. Alternatively, you can use these arts in combat. When you take the Attack action on your turn, you can replace one of your attacks with one of your Fire Arts presented below. Calculating the save DC and the attack roll for your arts is the same as for your spells. If you picked a class with the ability to cast spells, you use your spellcasting ability to determine the save DC and attack roll modifier, otherwise use your Constitution for this purpose. You can use your Fire Arts offensively a number of times equal to your Proficiency modifier and regain all expended uses when you finish a long rest. This trait counts as an innate ability, and not as a spell. You have the following offensive art options:",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Cone of Flames",
+                                    "entries": [
+                                        "You create a 15-foot cone of fire. Creatures in that area must make a Dexterity saving throw. On a failed save they take 1d10 fire damage, or half as much on a success. This damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10). The range of this attack also increases to a 30-foot cone when you reach 11th level."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Flame Path",
+                                    "entries": [
+                                        "You create a 30-foot long, 5 feet wide line of fire. Creatures in that area must make a Dexterity saving throw. On a failed save they take 1d10 fire damage, or half as much on a success. This damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10). The range of this attack also increases to a 60-foot long, 10 feet wide when you reach 11th level."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Flame Surge",
+                                    "entries": [
+                                        "You attempt to set a creature on fire. Make a ranged attack against a creature within 60 feet of you, that you can see. On a hit deal 1d10+ your Fire Art ability modifier fire damage and they are set on fire. While a creature is on fire, they will take 1d6 fire damage at the start of each of its turns. A creature can use its action to extinguish the flames. This initial damage and the continuous fire damage increase by 1d10 and 1d6 when you reach 5th level (2d10 and 2d6), 11th level (3d10 and 3d6), and 17th level (4d10 and 4d6)."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "hasFluff": true,
+            "hasFluffImages": true,
+            "raceName": "Terra Furry",
+            "raceSource": "KAHB"
+        },
+        {
+            "name": "Durin",
+            "source": "KAHB",
+            "page": 1,
+            "traitTags": [
+                "Language Proficiency",
+                "Tool Proficiency"
+            ],
+            "languageProficiencies": [
+                {
+                    "Common": true
+                }
+            ],
+            "toolProficiencies": [
+				{
+					"choose": {
+                        "from": [
+                            "alchemist's supplies",
+                            "brewer's supplies",
+                            "calligrapher's supplies",
+                            "carpenter's tools",
+                            "cartographer's tools",
+                            "cobbler's tools",
+                            "cook's utensils",
+                            "glassblower's tools",
+                            "jeweler's tools",
+                            "leatherworker's tools",
+                            "mason's tools",
+                            "painter's supplies",
+                            "potter's tools",
+                            "smith's tools",
+                            "tinker's tools",
+                            "weaver's tools",
+                            "woodcarver's tools"
+                        ],
+                        "count": 2
+                    },
+                    "brewer's supplies": true
+				}
+			],
+            "size": [
+                "S"
+            ],
+            "entries": [
+                {
+                    "type": "section",
+                    "entries": [
+                        {
+                            "type": "entries",
+                            "name": "Durin",
+                            "entries":[
+                                "Durins are small humanoids, which can be seen from their stout, short stature that is estimated to be around 120 cm. They also have pointed ears, have a culture of being heavy drinkers, and are excellent miners and underground surveyors. All Durins come from an underground world which is currently unexplored by the land-dwellers. It is said that the Durins are masters of advanced technology, ranging from cities within a dome that replicates the surface world to a tiny yet complicated Arts device. As a matter of fact, many Durins only come to the surface just for fun and to mitigate frustration from the lack of exciting moments out of their land's utopic nature. Due to their country's isolation, the Durins tend to have a simple, primitive, yet optimistic mindset which makes them much more peaceful compared to others."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Small Size",
+                    "entries": [
+                        "Your size is Small."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Speed",
+                    "entries": [
+                        "Your base walking speed is 25 feet."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Heavy Drinker",
+                    "entries": [
+                        "You have advantage on ability checks and saving throws against the condition that you would get after drinking too much alcohol."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Simple Minded",
+                    "entries": [
+                        "You have advantage on Intelligence saving throws."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Advanched Society",
+                    "entries": [
+                        "You gain proficiency in two artisan tools of your choice."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Pacifist",
+                    "entries": [
+                        "Whenever you try to convince another creature to avoid violence, you can add a d6 to the Charisma ability check you roll. You can use this trait after you see the result on your dice roll, but before the roll effects are calculated."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Brew Master",
+                    "entries": [
+                        "You gain proficiency in Brewer’s Supplies. In addition, you gain the ability to brew special magical alcoholic drinks. As part of a long rest, you can start making these drinks and they will be fermented and ready at the start of the next long rest. You can only have in the making an amount of drinks at the same time equal to your proficiency bonus, but you can store as many as you like. Making these magical drinks requires 15 gp worth of materials each. A creature can consume these drinks as an action or as a bonus action. Whenever a creature consumes one of these drinks, it must make a Constitution saving throw against 8 + your proficiency bonus. On a failed save they gain the effects of the drink, but also gain the Dizzy condition that lasts as long as the drink's effect lasts. A Lesser Restoration spell can remove the Dizzy effect. On a successful save the drinks effects activates without a consumer getting Dizzy. The Dizzy condition gives the creature disadvantage on attack rolls and ability check.",
+                        "You have the following drink options to make:",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Numbing Rum",
+                                    "entries": [
+                                        "The consumer of this drink will gain temporary hit points at the start of each of its turns equal to your proficiency bonus. It lasts a number of rounds equal to your proficiency bonus."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Ale of Clarity",
+                                    "entries":  [
+                                        "The consumer of this drink loses the charmed of frightened condition, but makes the Constitution saving throw against the drink with disadvantage. On a failed save, it gains the Dizzy condition for an amount of rounds equal to your proficiency bonus."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Cider of Friendship",
+                                    "entries": [
+                                        "The consumer of this drink will treat the creature it received from as a close friend if it fails the Constitution saving throw. This drink's effects lasts for an hour, but creatures immune to being charmed cannot be affected by it."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "The Strong",
+                                    "entries": [
+                                        "The consumer of this drink must make a Constitution saving throw against 8 + 2x your proficiency bonus. On a failed save, the consumer gains the Dizzy condition for an amount of hours equal to your proficiency bonus."
+                                    ]
+                                }
                             ]
                         }
                     ]
