@@ -10,7 +10,7 @@
                 ],
                 "version": "1.0",
                 "color": "e1ad21",
-                "url": "https://drive.google.com/drive/folders/1tpg_tBchaKI_msMswEwfEoXP_JfjTazg?usp=sharing",
+                "url": "https://docs.google.com/document/d/1EJixzfYthEIKVrpb7ys3E5X3woPzHPuT/edit?usp=drive_link&ouid=100736800266638732816&rtpof=true&sd=true",
                 "convertedBy": [
                     "thecringeone"
                 ]
@@ -95,7 +95,7 @@
             "source": "KAHB",
             "page": 1,
             "traitTags": [
-
+                "Language Proficiency"
             ],
             "armorProficiencies": [
 
@@ -117,7 +117,18 @@
 				}
 			],
             "entries": [
-                "template"
+                {
+                    "type": "section",
+                    "entries": [
+                        {
+                            "type": "entries",
+                            "name": "template",
+                            "entries":[
+                                "template"
+                            ]
+                        }
+                    ]
+                }
             ],
             "hasFluff": true,
             "hasFluffImages": true,
@@ -129,6 +140,7 @@
             "source": "KAHB",
             "page": 1,
             "traitTags": [
+                "Language Proficiency",
                 "Weapon Proficiency",
                 "Armor Proficiency",
                 "Natural Weapon"
@@ -151,7 +163,18 @@
                 }
             ],
             "entries": [
-                "Archosaurians have the traits of crocodilians, which can be seen from the shape of their scaly tails. They also have long, pointed ears similar to that of Sarkaz, and some Archosaurians also have scales on their body. All known male Archosaurians are anthropomorphic but all female Archosaurians are humanoid, suggesting some form of sexual dimorphism within the race. They hail from Sargon’s vast jungles, where they live tribal life with constant conflict between each other.",
+                {
+                    "type": "section",
+                    "entries": [
+                        {
+                            "type": "entries",
+                            "name": "Archosauria",
+                            "entries":[
+                                "Archosaurians have the traits of crocodilians, which can be seen from the shape of their scaly tails. They also have long, pointed ears similar to that of Sarkaz, and some Archosaurians also have scales on their body. All known male Archosaurians are anthropomorphic but all female Archosaurians are humanoid, suggesting some form of sexual dimorphism within the race. They hail from Sargon’s vast jungles, where they live tribal life with constant conflict between each other."
+                            ]
+                        }
+                    ]
+                },
                 {
                     "type": "entries",
                     "name": "Adept in Conflict",
@@ -195,6 +218,9 @@
             "resist": [
                 "poison"
 			],
+            "traitTags": [
+                "Language Proficiency"
+            ],
             "languageProficiencies": [
                 {
                     "Common": true,
@@ -202,7 +228,18 @@
                 }
             ],
             "entries": [
-                "Anuras have the traits of frogs, but similar to the Aegirs, they are entirely humanoid, making their frog traits, i.e. patches of frog-like skin, barely noticeable. Some might also have the ability to secrete poison. However, whether there would be Anuras with more obvious traits is still debatable. Anuras are a mysterious race, they are quite rare among the other races of Terra and no larger group or community is known to the current date. They are assimilated into the known nations, adopted their culture, but because of their bodies, they face some difficulties with their everyday life. This race only has humanoid variants.",
+                {
+                    "type": "section",
+                    "entries": [
+                        {
+                            "type": "entries",
+                            "name": "Anura",
+                            "entries":[
+                                "Anuras have the traits of frogs, but similar to the Aegirs, they are entirely humanoid, making their frog traits, i.e. patches of frog-like skin, barely noticeable. Some might also have the ability to secrete poison. However, whether there would be Anuras with more obvious traits is still debatable. Anuras are a mysterious race, they are quite rare among the other races of Terra and no larger group or community is known to the current date. They are assimilated into the known nations, adopted their culture, but because of their bodies, they face some difficulties with their everyday life. This race only has humanoid variants."
+                            ]
+                        }
+                    ]
+                },
                 {
                     "type": "entries",
                     "name": "Poisonous Body and Skin",
@@ -232,12 +269,18 @@
             "name": "Anaty",
             "source": "KAHB",
             "page": 1,
+            "traitTags": [
+                "Language Proficiency",
+                "Skill Proficiency",
+                "Tool Proficiency"
+            ],
             "languageProficiencies": [
                 {
                     "Common": true
                 }
             ],
             "speed": {
+                "walk": 30,
                 "climb": 30
             },
             "skillProficiencies": [
@@ -245,8 +288,24 @@
                     "acrobatics": true
                 }
             ],
+            "toolProficiencies": [
+				{
+					"tinker's tools": true
+				}
+			],
             "entries": [
-                "Anaties have the traits of musteloids, which include otters, weasels, raccoons, and wolverines. Their musteloid traits can be seen from the shape of their ears and tail, though not all Anaty have animal ears. Anaties are quite common at the northern regions of Terra, but their place of origin is yet to be known. Their acrobatic bodies are adept in climbing thanks to their strong palms and fingers so they can easily become trained assassins and thieves. On top of that as technology got more and more advanced, most of them picked up an interest in small machinery and became well known mechanists. This race only has humanoid variants.",
+                {
+                    "type": "section",
+                    "entries": [
+                        {
+                            "type": "entries",
+                            "name": "Anaty",
+                            "entries":[
+                                "Anaties have the traits of musteloids, which include otters, weasels, raccoons, and wolverines. Their musteloid traits can be seen from the shape of their ears and tail, though not all Anaty have animal ears. Anaties are quite common at the northern regions of Terra, but their place of origin is yet to be known. Their acrobatic bodies are adept in climbing thanks to their strong palms and fingers so they can easily become trained assassins and thieves. On top of that as technology got more and more advanced, most of them picked up an interest in small machinery and became well known mechanists. This race only has humanoid variants."
+                            ]
+                        }
+                    ]
+                },
                 {
                     "type": "entries",
                     "name": "Adept Climbers",
@@ -290,6 +349,155 @@
                                         "The device can create a stationary image up to Small size and remains functional for up to 5 minutes. Enchanted effect: The device can create an image up to Large size and can remain functional up to an hour. The image doesn’t need to be stationary anymore."
                                     ]
                                 }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "hasFluff": true,
+            "hasFluffImages": true,
+            "raceName": "Terra Furry",
+            "raceSource": "KAHB"
+        },
+        {
+            "name": "Ægir",
+            "source": "KAHB",
+            "page": 1,
+            "traitTags": [
+                "Tool Proficiency",
+                "Language Proficiency",
+                "Skill Proficiency"
+            ],
+            "languageProficiencies": [
+                {
+                    "Common": true
+                }
+            ],
+            "skillProficiencies": [
+				{
+                    "performance": true
+				}
+			],
+            "toolProficiencies": [
+				{
+					"land vehicle": true,
+                    "water vehicle": true
+				}
+			],
+            "speed": {
+                "walk": 30,
+                "swim": 50
+            },
+            "entries": [
+                {
+                    "type": "section",
+                    "entries": [
+                        {
+                            "type": "entries",
+                            "name": "Ægir",
+                            "entries":[
+                                "Aegirs have the traits of various marine animals such as fishes, cetaceans, cephalopods, echinoderms, cnidarians, crustaceans, and pinnipeds. However, most Aegir are entirely humanoid, making their animalistic traits barely noticeable. All Aegir come from the oceans beyond the known world of Terra. On land, the Aegirs have to face the issues of dry skin. If left untreated, they will face severe symptoms like allergic reactions and chafing. Even though they hail from the ocean, ironically, a fair amount of them lack amphibious traits (i.e., breathing underwater), hence the reason why many Aegir cities are built within domes. They have a special connection with each other through song. To them, these songs are so special, that they don’t share them with land dwellers, only the ones they trust deeply. Because of their shared place of origin, Aegir can easily be corrupted into Seaborn either through scientific experiments, by succumbing to the monsters' alluring influence on the mind, or by being forcefully implanted Seaborn cells. Aegirs didn’t come into contact with originium, somehow the ocean granted them protection from it, only after some of them started to migrate to land, so their technology and methods are entirely foreign to land dwellers. This race only has humanoid variants."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "People of the Ocean",
+                    "entries": [
+                        "You gain 50 feet swimming speed and the ability to breathe underwater."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Culture of Singing",
+                    "entries": [
+                        "You gain proficiency in Performance. In addition, if you gain proficiency in Performance from other sources, such as class or background, this trait grants you expertise instead."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Refugees of an Advanced Civilization",
+                    "entries": [
+                        "You gain proficiency in all land and water vehicles. In addition, you have advantage on ability checks to figure out, understand or use highly advanced technological equipment and machines."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Unfamiliar with Originium.",
+                    "entries": [
+                        "You can use arts devices normally, as Aegirs spend enough time on land to learn and adept, but you have an alternative way to use your arts. You can ignore the somatic and material components of your spells, if they don’t require them to have an item with a specific value, and you don’t need to use arts devices anymore. However, if you forgo to use art devices, all your spells will have verbal components, as you use your song to manifest them."
+                    ]
+                }
+            ],
+            "hasFluff": true,
+            "hasFluffImages": true,
+            "raceName": "Terra Furry",
+            "raceSource": "KAHB"
+        },
+        {
+            "name": "Cautus",
+            "source": "KAHB",
+            "page": 1,
+            "traitTags": [
+                "Language Proficiency"
+            ],
+            "armorProficiencies": [
+
+            ],
+            "weaponProficiencies": [
+
+            ],
+            "resist": [
+                
+			],
+            "languageProficiencies": [
+                {
+                    "Common": true
+                }
+            ],
+            "skillProficiencies": [
+				{
+
+				}
+			],
+            "entries": [
+                {
+                    "type": "section",
+                    "entries": [
+                        {
+                            "type": "entries",
+                            "name": "Cautus",
+                            "entries":[
+                                "Cautuses have the traits of leporids (rabbits and hares), which can be seen from the shape of their ears, in fact they have both rabbit and humanoid ears, giving them exceptional hearing. They do have tails, which is largely unnoticeable due to the short length. As a matter of fact, they are often nicknamed as \"rabbits.\" Most Cautuses are born in Rim Billiton. This race only has humanoid variants"
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Keen Hearing",
+                            "entries": [ 
+                                "You have advantage on Wisdom (Perception) checks that rely on hearing."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Perceptive Fighter",
+                            "entries": [
+                                "You have blindsight with a range of 5 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're blinded or in darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you. You can only benefit from this trait if you aren’t deafened."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Detect",
+                            "entries": [
+                                "You can use a bonus action to make Wisdom (Perception) checks. In addition, you can try to detect invisible creatures you are hearing within 20 feet of you. Make a Wisdom (Perception) check against the creatures Dexterity (Stealth). On a success, the other creature won’t gain any benefits for being invisible against you, but you still cannot use spells on it, if it requires you to see the target, and you can now make opportunity attacks against the creature. If the creature moves more than 20 feet away from you, it will regain the benefits of invisibility again and you need to make another skill contest following the rules of this trait again to gain the same benefit again."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Corporate Born",
+                            "entries": [
+                                "You can add your proficiency bonus one additional time to Charisma skill check made for trading, bargaining and bribing."
                             ]
                         }
                     ]
