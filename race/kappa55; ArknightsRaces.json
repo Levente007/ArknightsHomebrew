@@ -2,13 +2,14 @@
     "_meta": {
         "sources": [
             {
-                "json": "KappaArknightsHB",
+                "json": "KAHB",
                 "abbreviation": "KAHB",
-                "full": "Kappa Arknights Races",
+                "full": "Kappa Arknights Homebrew",
                 "authors": [
                     "kappa55"
                 ],
                 "version": "1.0",
+                "color": "e1ad21",
                 "url": "https://drive.google.com/drive/folders/1tpg_tBchaKI_msMswEwfEoXP_JfjTazg?usp=sharing",
                 "convertedBy": [
                     "thecringeone"
@@ -21,7 +22,7 @@
     },
     "race": [
         {
-            "name": "Archosauria",
+            "name": "Terra Furry",
             "source": "KAHB",
             "ability": [
                 {
@@ -46,10 +47,9 @@
             "size": [
                 "M"
             ],
-            "speed": 30,
-            "languageProficiencies": [
-                "Common"
-            ],
+            "speed": {
+                "walk": 30
+            },
             "entries": [
                 {
                     "type": "entries",
@@ -87,6 +87,218 @@
                     ]
                 }
             ]
+        }
+    ],
+    "subrace": [
+        {
+            "name": "template",
+            "source": "KAHB",
+            "page": 1,
+            "traitTags": [
+
+            ],
+            "armorProficiencies": [
+
+            ],
+            "weaponProficiencies": [
+
+            ],
+            "resist": [
+                
+			],
+            "languageProficiencies": [
+                {
+                    "Common": true
+                }
+            ],
+            "skillProficiencies": [
+				{
+
+				}
+			],
+            "entries": [
+                "template"
+            ],
+            "hasFluff": true,
+            "hasFluffImages": true,
+            "raceName": "Terra Furry",
+            "raceSource": "KAHB"
+        },
+        {
+            "name": "Archosauria",
+            "source": "KAHB",
+            "page": 1,
+            "traitTags": [
+                "Weapon Proficiency",
+                "Armor Proficiency",
+                "Natural Weapon"
+            ],
+            "armorProficiencies": [
+                {
+                    "shield": true
+                }
+            ],
+            "weaponProficiencies": [
+                {
+                    "simple": true,
+                    "martial": true
+                }
+            ],
+            "languageProficiencies": [
+                {
+                    "Common": true,
+                    "Sargonian": true
+                }
+            ],
+            "entries": [
+                "Archosaurians have the traits of crocodilians, which can be seen from the shape of their scaly tails. They also have long, pointed ears similar to that of Sarkaz, and some Archosaurians also have scales on their body. All known male Archosaurians are anthropomorphic but all female Archosaurians are humanoid, suggesting some form of sexual dimorphism within the race. They hail from Sargon’s vast jungles, where they live tribal life with constant conflict between each other.",
+                {
+                    "type": "entries",
+                    "name": "Adept in Conflict",
+                    "entries": [
+                        "You gain proficiency in simple and martial weapons. You also gain proficiency in shields."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Strong Jaws",
+                    "entries": [
+                        "You gain a bite attack, which counts as an unarmed strike and deals 1d6 + your Strength modifier piercing damage. In addition, if you grapple or restrain an enemy you can use a bonus action to attack them with this bite attack. Your bite attacks have advantage against grappled targets."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Tribal Tactics",
+                    "entries": [
+                        "You can make simple traps using your environment. Spending 5 minutes quickly gathering materials and assembling them into a barely functioning contraption. Your traps use your Wisdom to determinate their saving throw DC. The DC is 8 + your Proficiency bonus + your Wisdom modifier. Placing traps requires 1 minute and you can only place them within 5 feet of you. If a creature is making a skill check to detect your traps, they make the skill check against the DC determined by this trait. You can make up to 3 traps with this feature and carry them with yourself.",
+                        "You can make the following traps:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "Restraining Trap: You place this small sized trap on the ground. Whenever a creature steps on it, it must make a Dexterity saving throw or become grappled. After they get caught in this trap, they can use their action to make an Athletics check against your trap DC to escape it. After the trap is used, by a creature triggering it or escaping from it, the trap is destroyed.",
+                                "Tripping Trap: You make a 15-feet long 5-feet wide contraption, which you attach to two solid surfaces or onto the ground. The first time a creature enters the space of the trap they have to make a Dexterity saving throw or fall prone. After triggering this trap, it is revealed to everyone and its space becomes difficult terrain until it’s removed.",
+                                "Launching Trap : You make a medium sized contraption, which you place on the ground or on a solid surface. When a creature comes into contact with the trap, they must make a Strength saving throw or be knocked back into the opposite direction the trap is facing by 15 feet and are knocked prone. Only large or smaller creatures can be affected by this trap. After the trap is used, by a creature triggering it, the trap is destroyed."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "hasFluff": true,
+            "hasFluffImages": true,
+            "raceName": "Terra Furry",
+            "raceSource": "KAHB"
+        },
+        {
+            "name": "Anura",
+            "source": "KAHB",
+            "page": 1,
+            "resist": [
+                "poison"
+			],
+            "languageProficiencies": [
+                {
+                    "Common": true,
+                    "Anuran": true
+                }
+            ],
+            "entries": [
+                "Anuras have the traits of frogs, but similar to the Aegirs, they are entirely humanoid, making their frog traits, i.e. patches of frog-like skin, barely noticeable. Some might also have the ability to secrete poison. However, whether there would be Anuras with more obvious traits is still debatable. Anuras are a mysterious race, they are quite rare among the other races of Terra and no larger group or community is known to the current date. They are assimilated into the known nations, adopted their culture, but because of their bodies, they face some difficulties with their everyday life. This race only has humanoid variants.",
+                {
+                    "type": "entries",
+                    "name": "Poisonous Body and Skin",
+                    "entries": [
+                        "Your body creates a poison unique to you and you can use this to your advantage.",
+                        "This trait grants you the following benefits:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "Whenever a creature hits you with a melee attack within 5 feet of you, they will take poison damage equal to your proficiency bonus. If you are hit by a bite attack, they take double damage from this trait.",
+                                "You gain advantage on saving throws against being poisoned and taking poison damage.",
+                                "You gain resistance to poison damage.",
+                                "While you are physically grappling or restraining a creature or you are being grappled or restrained by a creature, the creature will take poison damage equal to your proficiency bonus at the start of its turn.",
+                                "As a bonus action you can coat a melee weapon or a piece of ammunition with your poison. The coating remains on the weapon for 1 minute or until you successfully hit a creature with the weapon. On a hit the target has to make a Constitution saving throw against 8 + your proficiency bonus + your Constitution modifier. On a failure the creature takes poison damage equal to your proficiency bonus and becomes poisoned until the start of your next turn. On a success, they take half damage and aren’t poisoned. You can apply this coating a number of times equal to 2 x your proficiency bonus and regain the ability to do so on a short rest.",
+                                "Your poison loses potency after 1 minute if it loses contact with your body, making it impossible to store for later uses for other creatures."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "hasFluff": true,
+            "hasFluffImages": true,
+            "raceName": "Terra Furry",
+            "raceSource": "KAHB"
+        },
+        {
+            "name": "Anaty",
+            "source": "KAHB",
+            "page": 1,
+            "languageProficiencies": [
+                {
+                    "Common": true
+                }
+            ],
+            "speed": {
+                "climb": 30
+            },
+            "skillProficiencies": [
+                {
+                    "acrobatics": true
+                }
+            ],
+            "entries": [
+                "Anaties have the traits of musteloids, which include otters, weasels, raccoons, and wolverines. Their musteloid traits can be seen from the shape of their ears and tail, though not all Anaty have animal ears. Anaties are quite common at the northern regions of Terra, but their place of origin is yet to be known. Their acrobatic bodies are adept in climbing thanks to their strong palms and fingers so they can easily become trained assassins and thieves. On top of that as technology got more and more advanced, most of them picked up an interest in small machinery and became well known mechanists. This race only has humanoid variants.",
+                {
+                    "type": "entries",
+                    "name": "Adept Climbers",
+                    "entries": [
+                        "You gain climbing speed equal to your movement speed."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Acrobatic Body",
+                    "entries": [
+                        "You gain proficiency in Acrobatics. In addition, if you gain proficiency in Acrobatics from other sources, such as class or background, this trait grants you expertise instead."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Creators",
+                    "entries": [
+                        "You gain proficiency with Tinker’s Tools. In addition, if you gain proficiency in Tinker’s Tool from other sources, such as class or background, this trait grants you expertise instead. Using those tools, you can spend 1 hour and 25 gp worth of materials to construct a Tiny originium device (AC 5, 1 hp). The device ceases to function if it is reduced to 0 HP or you use your Action to dismantle it; at that time, you can reclaim the materials used to create it. Whenever you create a device, choose up to 2 properties from the list below. You can choose the same property twice and gain an enchanted effect of that property. If a device can function up to a specified amount of time and have different properties, they can maintain their function separately up to the time specified to them. If you activate both properties at the same time, they will maintain function until one of them reaches their maximum function time and the device will consume both properties' functionality. If a device reaches its maximum uptime, you need to spend 10 minutes with the device to restore it to function. Whenever you create the device you determine how their functions look or sound like. If you want to modify them, like make the device create a different sound and another image, you need to spend 10 minutes of work with it. If a device requires a creature to make a saving throw, the DC is 8 + your Proficiency bonus + your Intelligence modifier. You can activate a device by touching it and must use your action to do so, but you can throw it 30 feet away with the same action.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Light",
+                                    "entries": [
+                                        "The device can emanate bright light in a 30 feet cone and dim light in an additional 30 feet up to an hour. Enchanted effect: Doubles to range of the lighting and can function until turned off. Also, you turn this device into a flashbang, which you can throw to a point within 30 feet of you. Creatures within 10 feet of that point must make a Constitution saving throw. On a failure, their next attack will be at disadvantage. After you used it this way, the device is destroyed."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Sound",
+                                    "entries": [
+                                        "The device can create any sound up to an hour, and it can only be heard up to 60 feet. You can adjust the volume of the device. Enchanted effect: The device can operate for more than an hour now, until it is turned off and its sound can be heard up to 300 feet. You can also turn this device into a sound bomb, which you can throw to a point within 30 feet of you. Creatures within 10 feet of that point must make a Constitution saving throw or become deafened for 1 minute. After you used it this way, the device is destroyed."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Image",
+                                    "entries": [
+                                        "The device can create a stationary image up to Small size and remains functional for up to 5 minutes. Enchanted effect: The device can create an image up to Large size and can remain functional up to an hour. The image doesn’t need to be stationary anymore."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "hasFluff": true,
+            "hasFluffImages": true,
+            "raceName": "Terra Furry",
+            "raceSource": "KAHB"
         }
     ]
 }
